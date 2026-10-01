@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A Amor Animal promove o resgate, o cuidado e a adoção responsável de animais.">
+  <meta name="theme-color" content="#176b5b">
+  <title>Amor Animal | ONG de Proteção Animal</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/script.js" defer></script>
+</head>
+<body>
+  <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+  <header class="cabecalho">
+    <a href="/index.html" class="logo" aria-label="Amor Animal, página inicial"><span aria-hidden="true">🐾</span> Amor Animal</a>
+    <div class="acoes-cabecalho">
+      <button class="tema-botao" type="button" data-theme-toggle aria-label="Ativar modo escuro" aria-pressed="false">🌙 <span class="sr-only">Alternar tema</span></button>
+      <button class="menu-hamburguer" id="menu-hamburguer" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu"><span aria-hidden="true">☰</span></button>
+    </div>
+    <nav class="menu" id="menu" aria-label="Navegação principal">
+      <a href="/index.html" aria-current="page">Início</a>
+      <div class="dropdown">
+        <button class="dropdown-botao" type="button" aria-expanded="false" aria-controls="submenu-ong">A ONG <span aria-hidden="true">▾</span></button>
+        <div class="dropdown-conteudo" id="submenu-ong">
+          <a href="#sobre">Sobre nós</a><a href="#como-ajudar">Como ajudar</a><a href="/projeto.html">Nossos projetos</a>
+        </div>
+      </div>
+      <a href="#animais">Animais</a><a href="#contato">Contato</a><a href="/cadastro.html" class="botao-menu">Quero ajudar</a>
+    </nav>
+  </header>
+  <main id="conteudo">
+    <section class="hero">
+      <div class="hero-texto"><span class="tag">🐾 Proteção e amor</span>
+        <h1>Um lar muda tudo. <strong>Uma atitude também.</strong></h1>
+        <p>A Amor Animal trabalha para resgatar, cuidar e encontrar lares responsáveis para animais que precisam de uma nova oportunidade.</p>
+        <div class="area-botoes"><a href="/cadastro.html" class="botao botao-principal">Quero ajudar</a><a href="#animais" class="botao botao-secundario">Conhecer animais</a></div>
+      </div>
+      <div class="hero-imagem"><img src="/img/cachorro.png" alt="Ilustração de um cachorro acolhido pela Amor Animal" width="640" height="520"></div>
+    </section>
+    <section class="secao" id="sobre"><div class="titulo-secao"><span class="tag">Sobre a ONG</span><h2>Cuidar hoje para transformar amanhã</h2><p>Nosso objetivo é oferecer proteção, cuidados veterinários, alimentação e uma nova oportunidade para animais abandonados ou vítimas de maus-tratos.</p></div>
+      <div class="cards-info"><article class="card-info"><div class="icone" aria-hidden="true">❤️</div><h3>Resgate</h3><p>Acolhemos animais que precisam de proteção e cuidados.</p></article><article class="card-info"><div class="icone" aria-hidden="true">🐶</div><h3>Cuidados</h3><p>Oferecemos alimentação, vacinação e acompanhamento.</p></article><article class="card-info"><div class="icone" aria-hidden="true">🏠</div><h3>Adoção</h3><p>Buscamos famílias responsáveis para cada animal.</p></article></div>
+    </section>
+    <section class="secao animais" id="animais"><div class="titulo-secao"><span class="tag">Eles esperam por você</span><h2>Conheça alguns dos nossos animais</h2><p>Cada um possui uma história diferente e merece uma família cheia de carinho.</p></div>
+      <div class="grid-animais">
+        <article class="card-animal">
+         <img src="./img/cachorro.png" alt="Ilustração de Thor, cachorro disponível para adoção" width="640" height="420" loading="lazy">
+          <div class="card-animal-conteudo"><span class="status">Disponível para adoção</span><h3>Thor</h3><p>Carinhoso, brincalhão e muito companheiro.</p><button class="botao-card" type="button" data-animal="Thor">Conhecer Thor</button></div>
+        </article>
+        <article class="card-animal"><img src="/img/gato.png" alt="Ilustração de Mia, gata disponível para adoção" width="640" height="420" loading="lazy"><div class="card-animal-conteudo"><span class="status">Disponível para adoção</span><h3>Mia</h3><p>Dócil, carinhosa e muito curiosa.</p><button class="botao-card" type="button" data-animal="Mia">Conhecer Mia</button></div></article>
+      </div>
+    </section>
+    <section class="secao destaque" id="como-ajudar"><div class="destaque-conteudo"><span class="tag">Faça parte dessa causa</span><h2>Existem muitas formas de ajudar</h2><p>Você pode adotar, ser voluntário, contribuir com doações ou simplesmente compartilhar nosso trabalho.</p><a href="/cadastro.html" class="botao botao-claro">Quero participar</a></div></section>
+    <section class="secao contato" id="contato"><div class="titulo-secao"><span class="tag">Contato</span><h2>Fale com a Amor Animal</h2><p>Entre em contato para saber mais sobre adoção, voluntariado ou doações.</p></div><div class="contato-box"><p>📧 <a href="mailto:contato@amoranimal.org">contato@amoranimal.org</a></p><p>📱 (31) 99999-9999</p><p>📍 Minas Gerais - Brasil</p></div><p class="nota">Os dados de contato acima são demonstrativos e devem ser substituídos pelos contactos reais da organização.</p></section>
+  </main>
+  <footer><div class="rodape-conteudo"><div><h2>🐾 Amor Animal</h2><p>Protegendo animais e construindo novas histórias.</p></div><div><h2>Links</h2><a href="/index.html">Início</a><a href="/projeto.html">Projetos</a><a href="/cadastro.html">Cadastro</a></div></div><div class="rodape-final">© 2026 Amor Animal - Projeto demonstrativo de proteção animal</div></footer>
+  <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-titulo" aria-describedby="modal-descricao" aria-hidden="true" hidden>
+    <div class="modal-conteudo" tabindex="-1"><button class="modal-fechar" id="modal-fechar" type="button" aria-label="Fechar janela">×</button><span class="tag">Conheça nosso animal</span><h2 id="modal-titulo">Animal</h2><p id="modal-descricao">Esse animal está esperando por uma família responsável que possa oferecer carinho, segurança e cuidado.</p><a href="/cadastro.html" class="botao botao-principal">Tenho interesse</a></div>
+  </div>
+</body>
+</html>
