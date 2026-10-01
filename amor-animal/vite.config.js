@@ -1,9 +1,16 @@
-import { defineConfig } from "vite";
+import { defineConfig } from 'vite'
+import { resolve } from 'node:path'
 
 export default defineConfig({
-  // Aplicação multipágina: as páginas HTML na raiz são incluídas automaticamente.
-  build: {
-    outDir: "dist",
-    emptyOutDir: true
-  }
-});
+build: {
+outDir: 'dist',
+emptyOutDir: true,
+rollupOptions: {
+input: {
+index: resolve(process.cwd(), 'index.html'),
+cadastro: resolve(process.cwd(), 'cadastro.html'),
+projeto: resolve(process.cwd(), 'projeto.html')
+}
+}
+}
+})
