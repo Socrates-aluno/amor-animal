@@ -14,3 +14,11 @@ footer{background:var(--verde-escuro);color:#fff;margin-top:64px}.rodape-conteud
 @media(max-width:600px){.hero{padding-top:30px}.hero h1{font-size:2.5rem}.hero-imagem img{height:320px;min-height:0}.area-botoes{flex-direction:column}.area-botoes .botao{width:100%}.grid-animais{grid-template-columns:1fr}.card-animal{grid-column:auto}.destaque{padding:32px}.contato-box{flex-direction:column}.formulario{padding:24px}.rodape-conteudo{grid-template-columns:1fr}.rodape-conteudo>div:first-child,.rodape-conteudo>div:last-child{grid-column:auto}}
 @media(max-width:400px){.cabecalho{width:94%}.logo{font-size:1.1rem}.hero h1{font-size:2rem}.hero p{font-size:1rem}.pagina-topo{padding-top:50px}.pagina-topo h1{font-size:2.1rem}.titulo-secao h2{font-size:1.8rem}.formulario{padding:16px}.modal-conteudo{padding:44px 24px 24px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid #f0a500;
+  outline-offset: 3px;
+}
